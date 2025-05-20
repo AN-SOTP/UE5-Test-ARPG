@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\testproject\\source\\testproject\\testprojectgamemode.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

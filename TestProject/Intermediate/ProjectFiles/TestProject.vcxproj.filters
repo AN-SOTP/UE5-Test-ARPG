@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestProject">
+      <UniqueIdentifier>{324171D1-3A0B-30DF-B541-256A933236BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestProject\TestAttributeSet.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestAttributeSet.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestPlayerState.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestPlayerState.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\TestProject\TestProject.Build.cs">
+      <Filter>Source\TestProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestProject\TestProject.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProject.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectCharacter.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectCharacter.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectGameMode.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectGameMode.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectPlayerController.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectPlayerController.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\WarriorAttributeSet.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\WarriorAttributeSet.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\testproject\\source\\testproject\\testprojectplayercontroller.h",
+            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
