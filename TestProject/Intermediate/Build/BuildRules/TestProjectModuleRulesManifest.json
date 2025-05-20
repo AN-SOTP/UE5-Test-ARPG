@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\LearningProjects\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
-		"D:\\LearningProjects\\TestProject\\Source\\TestProject.Target.cs",
-		"D:\\LearningProjects\\TestProject\\Source\\TestProjectEditor.Target.cs"
+		"D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
+		"D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Source\\TestProject.Target.cs",
+		"D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Source\\TestProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }
