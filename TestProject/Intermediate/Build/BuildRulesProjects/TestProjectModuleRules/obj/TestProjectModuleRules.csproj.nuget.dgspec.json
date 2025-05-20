@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LearningProjects\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj": {}
+    "D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj": {}
   },
   "projects": {
     "C:\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
@@ -1234,14 +1234,14 @@
         }
       }
     },
-    "D:\\LearningProjects\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj": {
+    "D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearningProjects\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj",
+        "projectUniqueName": "D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj",
         "projectName": "TestProjectModuleRules",
-        "projectPath": "D:\\LearningProjects\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj",
+        "projectPath": "D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\TestProjectModuleRules.csproj",
         "packagesPath": "C:\\Users\\awseb\\.nuget\\packages\\",
-        "outputPath": "D:\\LearningProjects\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\obj\\",
+        "outputPath": "D:\\LearningProjects\\UE5-Test-ARPG\\TestProject\\Intermediate\\Build\\BuildRulesProjects\\TestProjectModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
