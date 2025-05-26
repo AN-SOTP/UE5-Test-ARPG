@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testmenugamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testmenugamemode.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testmenugamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

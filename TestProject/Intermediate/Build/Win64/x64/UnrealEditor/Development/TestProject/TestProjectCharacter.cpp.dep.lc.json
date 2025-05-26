@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\learningprojects\\testproject\\source\\testproject\\testprojectcharacter.cpp",
+        "Source": "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectcharacter.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
-            "d:\\learningprojects\\testproject\\source\\testproject\\testprojectcharacter.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectcharacter.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -70,15 +70,15 @@
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.generated.h",
-            "d:\\learningprojects\\testproject\\source\\testproject\\testplayerstate.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testplayerstate.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
-            "d:\\learningprojects\\testproject\\source\\testproject\\testattributeset.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testattributeset.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemtestattributeset.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemtestattributeset.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testattributeset.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testplayerstate.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testattributeset.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testplayerstate.generated.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\decalcomponent.h",
@@ -109,7 +109,7 @@
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.gen.cpp"
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.gen.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

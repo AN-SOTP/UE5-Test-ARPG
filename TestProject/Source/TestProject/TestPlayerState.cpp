@@ -86,6 +86,6 @@ void ATestPlayerState::BeginPlay()
 
 	if (AbilitySystemComponent)
 	{
-		//Initialize attributes here or when class is chosen
+		//Initialize attributes here or when class is chosen (when i actually make class choosing menu)
 	}
 }

@@ -33,10 +33,22 @@
     <Filter Include="Source\TestProject">
       <UniqueIdentifier>{324171D1-3A0B-30DF-B541-256A933236BF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TestProject\MyTestGameInstance.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\MyTestGameInstance.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TestProject\TestAttributeSet.cpp">
       <Filter>Source\TestProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TestProject\TestAttributeSet.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestMenuGameMode.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestMenuGameMode.h">
       <Filter>Source\TestProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TestProject\TestPlayerState.cpp">

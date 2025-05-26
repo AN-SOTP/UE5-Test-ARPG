@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\learningprojects\\testproject\\source\\testproject\\testprojectplayercontroller.cpp",
+        "Source": "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectplayercontroller.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
-            "d:\\learningprojects\\testproject\\source\\testproject\\testprojectplayercontroller.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectplayercontroller.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.generated.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\blueprint\\aiblueprinthelperlibrary.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiblueprinthelperlibrary.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\fx\\niagara\\source\\niagara\\classes\\niagarasystem.h",
@@ -84,7 +84,7 @@
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\emitter.generated.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\particlesystemcomponent.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\fx\\niagara\\intermediate\\build\\win64\\unrealeditor\\inc\\niagara\\uht\\niagarafunctionlibrary.generated.h",
-            "d:\\learningprojects\\testproject\\source\\testproject\\testprojectcharacter.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectcharacter.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -148,7 +148,7 @@
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
             "c:\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.generated.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectcharacter.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
@@ -171,7 +171,7 @@
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
-            "d:\\learningprojects\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.gen.cpp"
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.gen.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
