@@ -84,6 +84,12 @@
     <ClCompile Include="..\..\Source\TestProject\TestProjectPlayerController.h">
       <Filter>Source\TestProject</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestSessionSubsystem.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestProject\TestSessionSubsystem.h">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TestProject\WarriorAttributeSet.cpp">
       <Filter>Source\TestProject</Filter>
     </ClCompile>

@@ -22,6 +22,8 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Character")
 	ECharacterClass GetSelectedClass() const { return SelectedClass; }
 
+	void CreateSession(FName SessionName, int32 MaxPlayers = 4);
+
 private:
 	UPROPERTY()
 	ECharacterClass SelectedClass = ECharacterClass::None;

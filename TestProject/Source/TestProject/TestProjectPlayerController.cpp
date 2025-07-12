@@ -11,6 +11,7 @@
 #include "InputActionValue.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
+#include "GameFramework/SpringArmComponent.h"
 #include UE_INLINE_GENERATED_CPP_BY_NAME(TestProjectPlayerController)
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
@@ -48,6 +49,7 @@ void ATestProjectPlayerController::SetupInputComponent()
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ATestProjectPlayerController::OnSetDestinationTriggered);
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &ATestProjectPlayerController::OnSetDestinationReleased);
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Canceled, this, &ATestProjectPlayerController::OnSetDestinationReleased);
+		EnhancedInputComponent->BindAction(ZoomAction, ETriggerEvent::Triggered, this, &ATestProjectPlayerController::OnMouseScrollZoom );
 	}
 	else
 	{
@@ -98,4 +100,25 @@ void ATestProjectPlayerController::OnSetDestinationReleased()
 	}
 
 	FollowTime = 0.f;
+}
+
+void ATestProjectPlayerController::OnMouseScrollZoom(const FInputActionValue& Value)
+{
+	//Code for zooming in and out with the middle mouse scroll wheel. Scrolling up is zooming in, scrolling down is zooming out.
+	if (ATestProjectCharacter* ControlledCharacter = Cast<ATestProjectCharacter>(GetPawn()))
+	{
+		if (USpringArmComponent* SpringArm = ControlledCharacter->GetCameraBoom())
+		{
+			//UE_LOG(LogTemp, Warning, TEXT("OnMouseScrollZoom called with value: %f"), Value.Get<float>());
+			float ZoomDelta = Value.Get<float>();
+			CameraZoomMultiplier += ZoomDelta * 0.1f; // Adjust zoom speed as needed
+			CameraZoomMultiplier = FMath::Clamp(CameraZoomMultiplier, 0.5f, 2.0f); 
+
+			SpringArm->TargetArmLength = FMath::Lerp(2400.f, 1400.f, CameraZoomMultiplier);
+		}
+		else
+		{
+			UE_LOG(LogTemplateCharacter, Warning, TEXT("No CameraBoom for player camera."));
+		}
+	}
 }

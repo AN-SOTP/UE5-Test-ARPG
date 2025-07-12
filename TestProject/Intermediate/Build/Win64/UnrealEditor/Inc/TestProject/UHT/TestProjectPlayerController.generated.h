@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TESTPROJECT_TestProjectPlayerController_generated_h
 
-#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATestProjectPlayerController(); \
 	friend struct Z_Construct_UClass_ATestProjectPlayerController_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ATestProjectPlayerController)
 
 
-#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ATestProjectPlayerController(ATestProjectPlayerController&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ATestProjectPlayerController();
 
 
-#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_17_PROLOG
-#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_20_GENERATED_BODY \
+#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_18_PROLOG
+#define FID_TestProject_Source_TestProject_TestProjectPlayerController_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TestProject_Source_TestProject_TestProjectPlayerController_h_20_INCLASS_NO_PURE_DECLS \
-	FID_TestProject_Source_TestProject_TestProjectPlayerController_h_20_ENHANCED_CONSTRUCTORS \
+	FID_TestProject_Source_TestProject_TestProjectPlayerController_h_21_INCLASS_NO_PURE_DECLS \
+	FID_TestProject_Source_TestProject_TestProjectPlayerController_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

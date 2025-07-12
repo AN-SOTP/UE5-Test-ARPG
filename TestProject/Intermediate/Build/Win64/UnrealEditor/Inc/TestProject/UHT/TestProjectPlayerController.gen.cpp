@@ -89,12 +89,24 @@ struct Z_Construct_UClass_ATestProjectPlayerController_Statics
 		{ "ToolTip", "Jump Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ZoomAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Zoom Input Action */" },
+#endif
+		{ "ModuleRelativePath", "TestProjectPlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Zoom Input Action" },
+#endif
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ShortPressThreshold;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FXCursor;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SetDestinationClickAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SetDestinationTouchAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ZoomAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -107,12 +119,14 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestProjectPl
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATestProjectPlayerController, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContext_MetaData), NewProp_DefaultMappingContext_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_SetDestinationClickAction = { "SetDestinationClickAction", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATestProjectPlayerController, SetDestinationClickAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetDestinationClickAction_MetaData), NewProp_SetDestinationClickAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_SetDestinationTouchAction = { "SetDestinationTouchAction", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATestProjectPlayerController, SetDestinationTouchAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetDestinationTouchAction_MetaData), NewProp_SetDestinationTouchAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_ZoomAction = { "ZoomAction", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATestProjectPlayerController, ZoomAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ZoomAction_MetaData), NewProp_ZoomAction_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATestProjectPlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_ShortPressThreshold,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_FXCursor,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_DefaultMappingContext,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_SetDestinationClickAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_SetDestinationTouchAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestProjectPlayerController_Statics::NewProp_ZoomAction,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATestProjectPlayerController_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ATestProjectPlayerController_Statics::DependentSingletons[])() = {
@@ -155,10 +169,10 @@ ATestProjectPlayerController::~ATestProjectPlayerController() {}
 struct Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestProjectPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATestProjectPlayerController, ATestProjectPlayerController::StaticClass, TEXT("ATestProjectPlayerController"), &Z_Registration_Info_UClass_ATestProjectPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATestProjectPlayerController), 4019381931U) },
+		{ Z_Construct_UClass_ATestProjectPlayerController, ATestProjectPlayerController::StaticClass, TEXT("ATestProjectPlayerController"), &Z_Registration_Info_UClass_ATestProjectPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATestProjectPlayerController), 804133992U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestProjectPlayerController_h_2027092129(TEXT("/Script/TestProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestProjectPlayerController_h_1258715295(TEXT("/Script/TestProject"),
 	Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestProjectPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_TestProjectPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

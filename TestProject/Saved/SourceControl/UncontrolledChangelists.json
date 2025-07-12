@@ -6,7 +6,14 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/UI/WBP_MainMenu.uasset",
-				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Maps/TestMenuMap.umap"
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Maps/TestMenuMap.umap",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Input/Actions/IA_ZoomCamera.uasset",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Input/IMC_Default.uasset",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/UI/WBP_ClassSelect.uasset",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/TopDown/Maps/TestMainMenuMap.umap",
+				"D:/LearningProjects/UE5-Test-ARPG/TestProject/Content/UI/WBP_Menu.uasset"
 			]
 		}
 	]

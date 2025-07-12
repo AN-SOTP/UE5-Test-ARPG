@@ -45,9 +45,8 @@ void ATestProjectGameMode::InitGame(const FString& MapName, const FString& Optio
 		// Reset input mode to game only
 		FInputModeGameOnly InputMode;
 		PC->SetInputMode(InputMode);
-	}*/
+	}
 	
-
 	if (UMyTestGameInstance* GameInstance = Cast<UMyTestGameInstance>(GetGameInstance()))
 	{
 		if (APlayerController* PC = GetWorld()->GetFirstPlayerController())
@@ -55,7 +54,34 @@ void ATestProjectGameMode::InitGame(const FString& MapName, const FString& Optio
 			if (ATestPlayerState* PS = PC->GetPlayerState<ATestPlayerState>())
 			{
 				PS->SetCharacterClass(GameInstance->GetSelectedClass());
+				UE_LOG(LogTemp, Log, TEXT("Selected Class: %s"), *UEnum::GetDisplayValueAsText(PS->GetCharacterClass()).ToString());
 			}
+			else
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Player State is null in InitGame in TestProjectGameMode"));
+			}
+		}
+	}*/
+}
+
+void ATestProjectGameMode::PostLogin(APlayerController* NewPlayer) 
+{
+	Super::PostLogin(NewPlayer);
+    
+	if (UMyTestGameInstance* GameInstance = Cast<UMyTestGameInstance>(GetGameInstance()))
+	{
+		UE_LOG(LogTemp, Log, TEXT("PostLogin - Selected Class from GameInstance: %s"), 
+			*UEnum::GetDisplayValueAsText(GameInstance->GetSelectedClass()).ToString());
+            
+		if (ATestPlayerState* PS = NewPlayer->GetPlayerState<ATestPlayerState>())
+		{
+			PS->SetCharacterClass(GameInstance->GetSelectedClass());
+			UE_LOG(LogTemp, Log, TEXT("PostLogin - Set PlayerState Class to: %s"), 
+				*UEnum::GetDisplayValueAsText(PS->GetCharacterClass()).ToString());
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("PostLogin - PlayerState not valid"));
 		}
 	}
 }

@@ -36,7 +36,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Character Class")
 	void SetCharacterClass(ECharacterClass NewClass);
 	
-	UFUNCTION(BlueprintPure, Category = "Character Class")
+	UFUNCTION(BlueprintCallable, Category = "Character Class")
 	ECharacterClass GetCharacterClass() const { return CharacterClass; }
 
 

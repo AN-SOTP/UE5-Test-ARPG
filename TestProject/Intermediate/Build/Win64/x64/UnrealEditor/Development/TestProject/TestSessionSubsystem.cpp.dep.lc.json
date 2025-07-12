@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testsessionsubsystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\testprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testsessionsubsystem.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystem.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemmodule.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemtypes.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemnames.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinedelegatemacros.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinesessioninterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinesessiondelegates.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinekeyvaluepair.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesessionsettings.h",
+            "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testsessionsubsystem.generated.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystemutils\\source\\onlinesubsystemutils\\public\\onlinesubsystemutils.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineexternaluiinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinemessageinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlineerror.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystemutils\\source\\onlinesubsystemutils\\public\\onlinesubsystemutilsmodule.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinefriendsinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineidentityinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinetitlefileinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineusercloudinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\voiceinterface.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystempackage.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\multithreadedpatching.h",
+            "c:\\ue_5.5\\engine\\plugins\\online\\onlinebase\\source\\public\\online\\onlinesessionnames.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

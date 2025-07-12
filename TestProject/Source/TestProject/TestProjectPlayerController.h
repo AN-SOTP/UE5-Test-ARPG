@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/PlayerController.h"
+#include "InputActionValue.h"
 #include "TestProjectPlayerController.generated.h"
 
 /** Forward declaration to improve compiling times */
@@ -42,6 +43,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* SetDestinationTouchAction;
 
+	/** Zoom Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
+	UInputAction* ZoomAction;
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
@@ -56,10 +61,14 @@ protected:
 	void OnSetDestinationTriggered();
 	void OnSetDestinationReleased();
 
+	//Input handler for mouse scroll zooming camera in and out
+	void OnMouseScrollZoom(const FInputActionValue& Value);
+
 private:
 	FVector CachedDestination;
 	
 	float FollowTime; // For how long it has been pressed
+	float CameraZoomMultiplier = 1.0f;
 };
 
 

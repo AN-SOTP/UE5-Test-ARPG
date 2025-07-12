@@ -34,7 +34,7 @@ ATestProjectCharacter::ATestProjectCharacter()
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
-	CameraBoom->TargetArmLength = 1600.f;
+	CameraBoom->TargetArmLength = 2400.f;
 	CameraBoom->SetRelativeRotation(FRotator(-60.f, 0.f, 0.f));
 	CameraBoom->bDoCollisionTest = false; // Don't want to pull camera in when it collides with level
 
@@ -71,12 +71,12 @@ void ATestProjectCharacter::Tick(float DeltaSeconds)
 void ATestProjectCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// Get the PlayerState
+	
 	PS = Cast<ATestPlayerState>(GetPlayerState());
 	if (PS)
 	{
-		PS->SetCharacterClass(ECharacterClass::Warrior);
+		//PS->SetCharacterClass(ECharacterClass::Warrior);
+		//UE_LOG(LogTemp, Log, TEXT("Character Class: %s"), *UEnum::GetDisplayValueAsText(PS->GetCharacterClass()).ToString());
 	}
 	else
 	{

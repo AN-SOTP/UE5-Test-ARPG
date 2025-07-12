@@ -7,6 +7,8 @@
         "Includes": [
             "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
             "d:\\learningprojects\\ue5-test-arpg\\testproject\\source\\testproject\\testprojectplayercontroller.h",
+            "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
             "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.generated.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\blueprint\\aiblueprinthelperlibrary.h",
             "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiblueprinthelperlibrary.generated.h",
@@ -152,8 +154,6 @@
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
-            "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
-            "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
@@ -171,6 +171,8 @@
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
             "c:\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
             "d:\\learningprojects\\ue5-test-arpg\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\uht\\testprojectplayercontroller.gen.cpp"
         ],
         "ImportedModules": [],
